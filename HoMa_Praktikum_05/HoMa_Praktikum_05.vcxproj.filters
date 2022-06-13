@@ -21,9 +21,15 @@
     <ClCompile Include="CZufall.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CLotto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CZufall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLotto.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
