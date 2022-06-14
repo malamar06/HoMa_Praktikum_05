@@ -65,7 +65,7 @@ CLotto::CLotto(int eingabe_n, int eingabe_k, int eingabe_s)
 {
 	n = eingabe_n;
 	k = eingabe_k;
-	if (s < 0)
+	if (eingabe_s < 0)
 		s = time(NULL);
 	else
 		s = eingabe_s;
