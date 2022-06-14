@@ -32,20 +32,11 @@ int CLotto::lottospielen()
 	return winnercounter;
 }
 
-std::vector<int> CLotto::zahlenziehen()
+std::vector<int> CLotto::zahlenziehen()//k mal zahlen ziehen
 {
 	
-	std::vector<int> blatt;
-	
-	int s_akt;
-	if (s > 0)
-		s_akt = s;
-	else
-		s_akt = time(NULL);
-
-	
+	std::vector<int> blatt;	
 	CZufall random;
-	//random.initialisiere(s_akt);
 	int transporter = 0;
 	blatt.clear();
 	while (blatt.size() < k)
